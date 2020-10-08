@@ -155,6 +155,71 @@ const operatingSystem = {
 
 
 
+// Tarea
+
+/*
+    1. Escribir una funcion que reciba dos parametros
+        p1. objeto con las ordenes de compra
+        p2. numero con el monto minimo
+
+    y returne un objeto con las ordenes que son igual o más caras
+    que el monto minimo
+    p.ej. 
+
+    expensiveOrders(
+        { 
+        "a": 3000, 
+        "b": 200, 
+        "c": 1050 
+        }, 
+        1000
+    )
+    ➞ { 
+        "a": 3000, 
+        "c": 1050
+    }
+
+    otro ejemplo
+    expensiveOrders({ "Hamburguesa": 35, "Helado": 4, "Papas": 5 }, 40)
+    ➞ {}
+
+
+    2. Escribir una funcion que dado un array de estudiantes
+    y devuelva un array con la calificación más alta de cada uno
+
+    p.ej.
+
+    getStudentTopNotes([
+    {
+        id: 1,
+        name: "Jacek",
+        notes: [5, 3, 4, 2, 5, 5]
+    },
+    {
+        id: 2,
+        name: "Ewa",
+        notes: [2, 3, 3, 3, 2, 5]
+    },
+    {
+        id: 3,
+        name: "Zygmunt",
+        notes: [2, 2, 4, 4, 3, 3]
+    }
+    ])
+    
+
+    ➞ [5, 5, 4]
+
+    Recomendaciones. 
+    Usar .map() 0 .reduce(), Math.max
+
+*/
+
+
+
+
+
+
 
 
 
